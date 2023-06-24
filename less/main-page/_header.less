@@ -18,3 +18,24 @@
       margin: 0 !important;
    }
 }
+
+.logo {
+   animation-name: rotation;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+
+   &:hover {
+      animation-play-state: paused;
+   }
+}
+
+@keyframes rotation {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
+}
