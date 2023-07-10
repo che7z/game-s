@@ -142,6 +142,74 @@
     margin: 0;
   }
 }
+.dota-box {
+  height: calc(100vh - 112px);
+  background-image: url("/img/pic/dota-big.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+.gta-box {
+  height: calc(100vh - 112px);
+  background-image: url("/img/pic/gta-big.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+.fortnite-box {
+  height: calc(100vh - 112px);
+  background-image: url("/img/pic/fortnite-big.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+.img-mobile {
+  display: none;
+}
+.gallery,
+.articles {
+  background-color: #F1EFE4;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide {
+  width: 80%;
+}
+@media (max-width: 991px) {
+  .dota-box,
+  .fortnite-box,
+  .gta-box {
+    height: 100%;
+    background-image: none;
+  }
+  .img-mobile {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .img-mobile img {
+    width: 450px;
+  }
+}
+@media (max-width: 420px) {
+  .img-mobile img {
+    width: 350px;
+  }
+}
 * {
   margin: 0;
   box-sizing: border-box;
