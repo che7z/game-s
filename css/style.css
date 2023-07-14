@@ -158,23 +158,29 @@
     margin: 0;
   }
 }
-.dota-box {
+.background {
   height: calc(100vh - 112px);
-  background-image: url(img/pic/dota-big.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+.dota-box {
+  background-image: url("../img/pic/dota-big.png");
+  height: calc(100vh - 112px);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain;
 }
 .gta-box {
+  background-image: url("../img/pic/gta-big.png");
   height: calc(100vh - 112px);
-  background-image: url(img/pic/gta-big.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain;
 }
 .fortnite-box {
+  background-image: url("../img/pic/fortnite-big.png");
   height: calc(100vh - 112px);
-  background-image: url(img/pic/fortnite-big.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain;
